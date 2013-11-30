@@ -1,0 +1,48 @@
+* {
+	font-family: sans-serif;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+div.building {
+	width: 140px;
+	height: 160px;
+	float: left;
+	padding: 20px;
+	margin: 5px;
+	text-align: center;
+}
+div.building, ul, p#gold {
+	border: 3px solid black;
+}
+p#gold {
+	width: 200px;
+	padding: 15px;
+	margin: 0px 0px 0px 5px;
+	font-size: 1.2em;
+	float: left;
+}
+form#start-over {
+	float: left;
+	width: 570px;
+	padding: 20px;
+}
+h3, ul {
+	clear: left;
+}
+h3 {
+	padding-top: 20px;
+}
+ul {
+	padding: 10px;
+}
+li {
+	list-style-type: none;
+}
+li.good {
+	color: green;
+}
+li.bad {
+	color: firebrick;
+}

@@ -1,0 +1,83 @@
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+input {
+	margin: 5px 15px;
+	width: 250px;
+	border: 2px solid black;
+}
+input.btn {
+	width: 100px;
+	font-size: 1.1em;
+	background-color: darkslateblue;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px black;
+}
+input.btn:hover {
+	background-color: indigo;
+	border: 1px solid black;
+}
+div.border {
+	border: 3px solid black;
+	padding: 15px;
+	width: 800px;
+	margin: 20px;
+}
+.alert {
+	padding: 5px 20px;
+}
+
+div#header {
+	border-bottom: 3px solid black;
+}
+textarea {
+	width: 960px;
+	height: 140px;
+	font-size: 1.2em;
+	border: 2px solid black;
+}
+input.post {
+	float: right;
+	width: 140px;
+	margin: 20px 100px;
+	font-size: 1.2em;
+}
+input#post_comment {
+	background-color: seagreen;
+}
+input#post_comment:hover {
+	background-color: darkgreen;
+}
+.messages {
+	clear: both;
+	margin-top: 30px;
+}
+.messages p {
+	margin-left: 20px;
+}
+.comments {
+	margin-left: 40px;
+}
+.comments textarea {
+	width: 900px;
+	height: 100px;
+}
+.messages p, .comments p {
+	word-wrap: break-word;
+}
+input.delete {
+	background-color: gray;
+	color: white;
+	font-size: .7em;
+	width: 120px;
+	float: right;
+}
+input.delete:hover {
+	background-color: dimgray;
+	color: white;
+}
+p#footnote {
+	clear: both;
+	padding: 20px 0px;
+}
